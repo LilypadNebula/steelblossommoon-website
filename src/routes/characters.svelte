@@ -50,7 +50,7 @@
   out:fade={{ duration: 200 }}>
   {#each characters as person, i}
     <div
-      class="flex w-1/3 {i % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}
+      class="flex w-full md:w-1/3 {i % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}
       items-center justify-around m-8">
       <div class="text-center">
         <p class="text-3xl glossText">{person.name}</p>

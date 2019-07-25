@@ -37,6 +37,11 @@
 
 <svelte:head>
   <title>Characters - Steel Blossom Moon</title>
+  <meta name="twitter:title" content="Characters" />
+  <meta
+    name="twitter:description"
+    content="Learn about the main player characters we follow through Rokugan in
+    Steel Blossom Moon" />
 </svelte:head>
 
 <div

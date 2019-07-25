@@ -4,6 +4,10 @@
 
 <svelte:head>
   <title>About - Steel Blossom Moon</title>
+  <meta name="twitter:title" content="About" />
+  <meta
+    name="twitter:description"
+    content="Some other important details about Steel Blossom Moon" />
 </svelte:head>
 
 <div

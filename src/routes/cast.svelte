@@ -55,6 +55,10 @@
 
 <svelte:head>
   <title>Cast - Steel Blossom Moon</title>
+  <meta name="twitter:title" content="Cast" />
+  <meta
+    name="twitter:description"
+    content="Details about the cast members of Steel Blossom Moon" />
 </svelte:head>
 
 <div
@@ -63,7 +67,7 @@
   out:fade={{ duration: 200 }}>
   {#each cast as person, i}
     <div
-      class="flex w-1/3 {i % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}
+      class="flex w-full md:w-1/3 {i % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}
       items-center justify-around m-8">
       <img
         src="https://via.placeholder.com/150?text=Pic+of+{person.name}"

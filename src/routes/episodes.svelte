@@ -20,6 +20,10 @@
 
 <svelte:head>
   <title>Episodes - Steel Blossom Moon</title>
+  <meta name="twitter:title" content="Episodes" />
+  <meta
+    name="twitter:description"
+    content="Get links to all the live episodes" />
 </svelte:head>
 
 <div

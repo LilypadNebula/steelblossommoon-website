@@ -22,5 +22,4 @@
 
 body{
   background-image: url('/bg.jpg');
-  @apply overflow-hidden;
 }

@@ -26,10 +26,7 @@
     content="Get links to all the live episodes" />
 </svelte:head>
 
-<div
-  class="flex flex-col items-center text-center p-8"
-  in:fade={{ delay: 200 }}
-  out:fade={{ duration: 200 }}>
+<div class="flex flex-col items-center text-center p-8" in:fade>
   <!-- <img
     src="/steelblossommoon.png"
     width="772"

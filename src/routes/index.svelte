@@ -14,10 +14,7 @@
     content="An actual play podcast of Legend of the Five Rings by Welcome to
     the Party" />
 </svelte:head>
-<div
-  class="text-2xl text-center"
-  in:fade={{ delay: 200 }}
-  out:fade={{ duration: 200 }}>
+<div class="text-2xl text-center" in:fade>
   <p class="text-5xl p-8 glossText">
     "Here is a cool quote about Rokugan or some shit. I'm gonna say a swear.
     Heck." - Emperor Hantei the LXIX

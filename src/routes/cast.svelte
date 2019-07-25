@@ -61,10 +61,7 @@
     content="Details about the cast members of Steel Blossom Moon" />
 </svelte:head>
 
-<div
-  class="flex flex-wrap items-center justify-around"
-  in:fade={{ delay: 200 }}
-  out:fade={{ duration: 200 }}>
+<div class="flex flex-wrap items-center justify-around" in:fade>
   {#each cast as person, i}
     <div
       class="flex w-full md:w-1/3 {i % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}

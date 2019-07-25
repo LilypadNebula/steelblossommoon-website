@@ -10,10 +10,7 @@
     content="Some other important details about Steel Blossom Moon" />
 </svelte:head>
 
-<div
-  in:fade={{ delay: 200 }}
-  out:fade={{ duration: 200 }}
-  class="text-center p-8 text-3xl">
+<div in:fade class="text-center p-8 text-3xl">
   <p>
     Legend of the Five Rings is owned by
     <a

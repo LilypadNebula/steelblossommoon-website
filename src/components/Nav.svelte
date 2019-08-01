@@ -16,11 +16,6 @@
     About
   </a>
   <a
-    class="text-2xl goblinText hover:border-b hover:border-black {segment === 'episodes' ? 'border-b border-black' : ''}"
-    href="episodes">
-    Episodes
-  </a>
-  <a
     class="text-2xl goblinText hover:border-b hover:border-black {segment === 'cast' ? 'border-b border-black' : ''}"
     href="cast">
     Cast

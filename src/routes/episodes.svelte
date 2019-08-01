@@ -15,6 +15,8 @@
 
 <script>
   import { fade } from "svelte/transition";
+  import { onMount } from "svelte";
+  import Player from "../components/Player.svelte";
   export let feed;
 </script>
 
@@ -32,11 +34,9 @@
     width="772"
     height="423"
     alt="Steel Blossom Moon logo" /> -->
-  <ul class="glossText text-3xl">
+  <ul class="glossText text-2xl">
     {#each feed as episode}
-      <li class="m-4">
-        <a href={episode.link}>{episode.title}</a>
-      </li>
+      <Player {episode} />
     {/each}
   </ul>
 

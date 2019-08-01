@@ -14,7 +14,7 @@
   }
 </script>
 
-<li class="p-8 flex flex-col items-center border-b border-gray-800 w-1/2">
+<li class="p-8 flex flex-col items-center border-b border-gray-800">
   <p>{episode.title}</p>
   <audio
     bind:this={audio}

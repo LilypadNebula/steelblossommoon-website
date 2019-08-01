@@ -42,9 +42,7 @@
     and put on by Welcome to the Party. It is streamed live on Twitch, and
     edited into an audio podcast. Check out all of our episodes below!
   </p>
-  <ul
-    class="glossText text-2xl flex flex-col items-center md:flex-row
-    md:flex-wrap">
+  <ul class="glossText text-2xl">
     {#each feed as episode}
       <Player {episode} />
     {/each}
